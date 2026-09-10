@@ -7,6 +7,9 @@ function App() {
   return (
     <div className="cont-app">
       <h1>Trampando com React</h1>
+
+      <h2>rafaelld@edu.sc.senai.br</h2>
+
       <h2>Onde posso trampar como dev?</h2>
       <p>
         Empresas e Software Houses: Consultorias e fábricas de software que desenvolvem aplicações sob demanda para terceiros.
