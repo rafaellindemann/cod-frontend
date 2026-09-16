@@ -46,7 +46,7 @@ alert('valor total r$' + valorTotal.toFixed(2))
     let nome = prompt('Qual seu nome?')
     let bocaDoSapo = nome
     alert(nome + ', seu nome tá na bocaDoSapo 🐸💀')
-  }
+ }
 
   function calcularMedia(){
     let nota1 = Number(prompt('Manda a primeira nota:'))
