@@ -23,8 +23,5 @@ function App() {
       <h1>Javascript no React</h1>
       <button onClick={testar}>Testar</button>
       <button onClick={calcularMedia}>Média</button>
-    </div>
-  )
+    </div>)
 }
-
-export default App
