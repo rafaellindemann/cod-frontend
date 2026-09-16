@@ -1,3 +1,27 @@
+*{
+  --petal-frost: #ffd6ffff;
+  --mauve: #e7c6ffff;
+  --mauve-2: #c8b6ffff;
+  --periwinkle: #b8c0ffff;
+  --periwinkle-2: #bbd0ffff;
+
+  background-color: var(--petal-frost);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+  background-color: var(--periwinkle-2);
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+}
+button:active{
+  background-color: var(--mauve-2);
+  scale: 0.95;
+  border-color: var(--periwinkle);
+}
+
 .counter {
   font-size: 16px;
   padding: 5px 10px;

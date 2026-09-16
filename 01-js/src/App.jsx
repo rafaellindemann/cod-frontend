@@ -3,6 +3,25 @@ import './App.css'
 
 function App() {
 
+  function trocarSapatos(){
+    let qtdPares, precoPar, valorTotal
+    qtdPares = Number(prompt('Quantidade de pares:'))
+    precoPar = Number(prompt('Preço de cada par:'))
+
+    valorTotal = qtdPares * precoPar
+
+    alert('Valor total da troca: R$' + valorTotal.toFixed(2))
+  }
+
+  function calcularPontos(){
+    let vitorias = Number(prompt('Número de vitórias:'))
+    let empates = Number(prompt('Número de empates:'))
+
+    let pontos = vitorias*3 + empates //*1
+
+    alert('O time teu tem ' + pontos + ' pontos')
+  }
+
   function testar(){
     let nome = prompt('Qual seu nome?')
     let bocaDoSapo = nome
@@ -21,6 +40,15 @@ function App() {
   return (
     <div className="cont-app">
       <h1>Javascript no React</h1>
+
+      <h2>Exercicios supimpas</h2>
+
+      <button onClick={calcularPontos}>Campeonato</button>
+      <button onClick={trocarSapatos}>Trocas Pé Pequeno</button>
+
+      <hr />
+
+
       <button onClick={testar}>Testar</button>
       <button onClick={calcularMedia}>Média</button>
     </div>
