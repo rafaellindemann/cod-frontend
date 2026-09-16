@@ -2,6 +2,7 @@
 import './App.css'
 
 function App() {
+  
 
   function trocarSapatos(){
     let qtdPares, precoPar, valorTotal
@@ -45,6 +46,9 @@ function App() {
 
       <button onClick={calcularPontos}>Campeonato</button>
       <button onClick={trocarSapatos}>Trocas Pé Pequeno</button>
+      <button>
+        <img src="" alt="" />
+      </button>
 
       <hr />
 
@@ -56,3 +60,11 @@ function App() {
 }
 
 export default App
+
+
+  // gasto -- 100
+  // faturamwnto -- lucro
+
+  // gasto*lucro = fat*100
+
+  // lucro = (fat*100)/gasto
