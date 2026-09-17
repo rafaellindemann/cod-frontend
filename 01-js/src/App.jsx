@@ -46,9 +46,9 @@ function App() {
 
       <button onClick={calcularPontos}>Campeonato</button>
       <button onClick={trocarSapatos}>Trocas Pé Pequeno</button>
-      <button>
+      {/* <button>
         <img src="" alt="" />
-      </button>
+      </button> */}
 
       <hr />
 
